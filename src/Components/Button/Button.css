@@ -1,0 +1,4 @@
+.bu:hover {
+  background: linear-gradient(121deg, #00ecff 26.73%, #c6009f 100%);
+  transition: 2s;
+}

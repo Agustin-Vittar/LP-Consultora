@@ -9,7 +9,7 @@ export const Join = () => {
   return (
     <div className="h-[100vh] fondo">
       <div className="flex justify-center items-end h-[15vh] ">
-        <h1 className="text-[52px] ">Sumate</h1>
+        <h1 className="text-[52px] font-[400] p-5">Sumate</h1>
       </div>
       <div className="h-[70vh] flex items-center justify-center gap-[15rem]">
         <Cards bgImg={img2} buttonText="Cargá tu CV"></Cards>

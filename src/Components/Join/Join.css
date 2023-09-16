@@ -1,3 +1,8 @@
 .fondo {
   background: linear-gradient(121deg, #00ecff 26.73%, #c6009f 100%);
+  /* background: linear-gradient(
+    121deg,
+    rgba(0, 236, 255, 0.6) 26.73%,
+    rgba(198, 0, 159, 0.6) 100%
+  ); */
 }

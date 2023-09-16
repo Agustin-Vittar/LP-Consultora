@@ -34,11 +34,7 @@ export const Header = () => {
                   {link.name}
                 </a>
               ))}
-              <Button
-                textColor="#fff"
-                bgColor="#C205A1"
-                buttonText="Cargá tu CV"
-              ></Button>
+              <Button buttonText="Cargá tu CV"></Button>
             </div>
           </nav>
           <div className="-mr-2 flex lg:hidden">
@@ -66,7 +62,7 @@ export const Header = () => {
                 {link.name}
               </a>
             ))}
-            <Button>Cargá tu CV</Button>
+            <Button buttonText="Cargá tu CV"></Button>
           </div>
         </div>
       ) : null}
