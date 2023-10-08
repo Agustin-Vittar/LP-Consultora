@@ -4,6 +4,7 @@ import { Header2 } from "./Components/Header/Header2";
 import Hero from "./Components/Hero/Hero";
 import { About } from "./Components/About/About";
 import { Join } from "./Components/Join/Join";
+import BusinessOverview from "./Components/BusinessOverview/BusinessOverview";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Hero />
       <About />
       <Join />
-      {/* <Footer /> */}
+      <BusinessOverview />
+      <Footer />
     </>
   );
 }

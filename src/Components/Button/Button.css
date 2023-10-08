@@ -1,4 +1,50 @@
-.bu:hover {
-  background: linear-gradient(121deg, #00ecff 26.73%, #c6009f 100%);
-  transition: 2s;
+/* Primera animación */
+/* .customButton::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(120deg, #00ecff 8.73%, #c6009f 100%);
+  transition: transform 0.2s ease-out;
+  transform: scaleY(0);
+  transform-origin: top;
+  border-radius: 46.5px;
+}
+
+.customButton:hover::before,
+.customButton:focus::before {
+  transform: scaleY(1);
+} */
+
+/* Segunda animación */
+
+.customButton {
+  background: linear-gradient(
+    90deg,
+    #c6009f 30.37%,
+    #ff60e0 50.29%,
+    #00eeff 20.59%,
+    #04d8e7 102.4%
+  );
+  box-shadow: 1.5px 3px 4.5px 0px rgba(0, 0, 0, 0.25);
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.customButton:hover {
+  background-position: 100% 0;
+  -moz-transition: background 0.4s ease-in-out;
+  -o-transition: background 0.4s ease-in-out;
+  -webkit-transition: background 0.4s ease-in-out;
+  transition: background 0.4s ease-in-out;
+}
+
+.customButton:focus {
+  outline: none;
 }

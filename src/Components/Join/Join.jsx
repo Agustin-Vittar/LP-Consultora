@@ -7,13 +7,25 @@ const img2 = "src/assets/Cardimg2.png";
 
 export const Join = () => {
   return (
-    <div className="h-[100vh] fondo">
+    <div id="join" className="h-auto xl:h-[90vh] fondo relative z-40">
       <div className="flex justify-center items-end h-[15vh] ">
-        <h1 className="text-[52px] font-[400] p-5">Sumate</h1>
+        <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] p-5">
+          Sumate
+        </h1>
       </div>
-      <div className="h-[70vh] flex items-center justify-center gap-[15rem]">
-        <Cards bgImg={img2} buttonText="Cargá tu CV"></Cards>
-        <Cards bgImg={img1} buttonText="Busco talento"></Cards>
+      <div className="flex items-center justify-center m-2 gap-[1rem] sm:gap-[2rem] md:gap-[5rem] xl:gap-[10rem]">
+        <Cards
+          bgImg={img1}
+          buttonText="Cargá tu CV"
+          linkDirection={
+            "https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new"
+          }
+        ></Cards>
+        <Cards
+          bgImg={img2}
+          buttonText="Busco talento"
+          linkDirection={"https://lpconsultora.hiringroom.com/jobs"}
+        ></Cards>
       </div>
     </div>
   );

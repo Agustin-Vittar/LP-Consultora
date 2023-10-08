@@ -1,0 +1,57 @@
+/* En tu archivo CSS o en tu archivo de estilos de Tailwind */
+.footer {
+  background-color: #229bbc;
+  color: #fffdfd;
+  text-align: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconscontainer {
+  flex-direction: row;
+}
+
+@media screen and (300px <= width <= 1000px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (300px <= width <= 639px) {
+  .title {
+    font-size: 14px;
+  }
+}
+
+@media screen and (500px <= width) {
+  .footer {
+    flex-direction: row;
+  }
+
+  .iconscontainer {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .iconscontainer div {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (640px <= width <= 1024px) {
+  .title {
+    font-size: 26px;
+  }
+}

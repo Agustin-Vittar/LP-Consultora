@@ -1,0 +1,13 @@
+/* carousel.css */
+/* Estilo para los dots inactivos */
+
+/* Estilo para el dot activo */
+
+.carousel .dot {
+  background-color: #50555c;
+}
+.carousel .dot.selected {
+  background-color: #00ecff; /* Color de fondo del dot activo */
+  width: 12px; /* Ancho del dot activo */
+  height: 12px; /* Altura del dot activo */
+}

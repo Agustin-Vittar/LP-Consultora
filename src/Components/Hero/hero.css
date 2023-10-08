@@ -1,3 +1,5 @@
+/* Color Blanco con sombreado */
+
 .title {
   color: #fff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.29);
@@ -6,4 +8,28 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* Color gris sin sombreado */
+/* .title {
+  color: #50555c;
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 150px;
+  margin-bottom: 50px;
+} */
+
+@media screen and (300px <= width <= 460px) {
+  #hero {
+    transform: scaleX(-1);
+    align-content: start;
+  }
+
+  .title {
+    font-size: 32px;
+    transform: scaleX(-1);
+  }
 }
