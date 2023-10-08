@@ -5,22 +5,22 @@ import logo from "../../assets/Logo footer.png";
 const iconos = [
   {
     name: "Instagram",
-    icon: "src/assets/Instagram.png",
+    icon: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799596/Proyecto%20LP/ihhswejvcvjg0d1pc20m.png",
     link: "https://www.instagram.com/lpconsultora.cba/",
   },
   {
     name: "Whatsapp",
-    icon: "src/assets/Whatsapp.png",
+    icon: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/zd7mik37lsrf1ghbjngk.png",
     link: "https://wa.me/543512411979",
   },
   {
     name: "LinkedIn",
-    icon: "src/assets/LinkedIn.png",
+    icon: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/hydj93qpczogo6r8ftxw.png",
     link: "https://www.linkedin.com/company/lp-consultora/?originalSubdomain=ar",
   },
   {
     name: "Facebook",
-    icon: "src/assets/Facebook.png",
+    icon: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799596/Proyecto%20LP/zai5bsmm1ephzkppykim.png",
     link: "https://www.facebook.com/people/LP-Consultora/100070749852794/",
   },
 ];
