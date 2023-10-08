@@ -57,7 +57,7 @@ export const Footer = () => {
   return (
     <footer
       id="contact"
-      className={`flex justify-between mt-[15%] md:mt-[15%] xl:mt-[10%] items-start text-start mix-blend-multiply sm:p-12 ${styles.footer}`}
+      className={`flex justify-between mt-[15%] md:mt-[26%] xl:mt-[10%] items-start text-start mix-blend-multiply sm:p-12 ${styles.footer}`}
     >
       <div className="flex flex-col ml-3 pl-5 pb-2">
         <h2 className={`-ml-10 ${styles.title}`}>Contacto</h2>
