@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./JoinButton.module.css";
+import styles from "./Joinbutton.module.css";
 
 export const Joinbutton = (prop) => {
   return (
