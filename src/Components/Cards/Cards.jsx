@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Card.module.css";
-import Joinbutton from "../JoinButton/Joinbutton.jsx";
+import { Joinbutton } from "../JoinButton/Joinbutton.jsx";
 import icono from "../../assets/ícono.svg";
 
 export const Cards = ({ buttonText, bgImg, linkDirection }) => {
