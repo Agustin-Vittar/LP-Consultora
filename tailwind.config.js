@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         heroimg:
-          "url('src/assets/Multiracial group of young creative people in smart casual wear discussing business shaking hands together.png')",
+          "url('https://res.cloudinary.com/djiasfflw/image/upload/v1696799809/Proyecto%20LP/r0io9s72egn8chuabdya.png')",
       },
       colors: {
         primary: "#F9F4F4",
