@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./ServiceCard.css";
 import { motion } from "framer-motion";
 
 const ServiceCard = ({

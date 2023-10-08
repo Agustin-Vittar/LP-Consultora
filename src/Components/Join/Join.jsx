@@ -1,13 +1,16 @@
 import React from "react";
 import { Cards } from "../Cards/Cards.jsx";
-import styles from "./Join.css";
+import styles from "./Join.module.css";
 
 const img1 = "src/assets/Cardimg1.png";
 const img2 = "src/assets/Cardimg2.png";
 
 export const Join = () => {
   return (
-    <div id="join" className="h-auto xl:h-[90vh] fondo relative z-40">
+    <div
+      id="join"
+      className={`h-auto xl:h-[90vh] relative z-40 ${styles.fondo}`}
+    >
       <div className="flex justify-center items-end h-[15vh] ">
         <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] p-5">
           Sumate

@@ -23,7 +23,7 @@
 } */
 
 @media screen and (300px <= width <= 460px) {
-  #hero {
+  .imgfondo {
     transform: scaleX(-1);
     align-content: start;
   }

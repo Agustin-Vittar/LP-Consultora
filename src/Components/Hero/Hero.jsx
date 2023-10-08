@@ -1,13 +1,13 @@
 import React from "react";
-import hero from "./hero.css";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
     <div
       id="hero"
-      className={`bg-heroimg bg-cover bg-center h-[90vh] flex justify-start items-center`}
+      className={`bg-heroimg bg-cover bg-center h-[90vh] flex justify-start items-center ${styles.imgfondo}`}
     >
-      <h1 className="p-10 title">
+      <h1 className={`p-10 ${styles.title}`}>
         Especialistas en la <br />
         selección y gestión <br />
         de talento.
