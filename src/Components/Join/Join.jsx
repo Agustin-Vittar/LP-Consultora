@@ -2,8 +2,10 @@ import React from "react";
 import { Cards } from "../Cards/Cards.jsx";
 import styles from "./Join.module.css";
 
-const img1 = "src/assets/Cardimg1.png";
-const img2 = "src/assets/Cardimg2.png";
+const img1 =
+  "https://res.cloudinary.com/djiasfflw/image/upload/v1696799771/Proyecto%20LP/n3e3q6gsocdarqv1myhr.jpg";
+const img2 =
+  "https://res.cloudinary.com/djiasfflw/image/upload/v1696799823/Proyecto%20LP/ki6qreedqbi4rvngozdr.jpg";
 
 export const Join = () => {
   return (

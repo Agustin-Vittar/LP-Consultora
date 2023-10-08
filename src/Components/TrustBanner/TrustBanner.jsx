@@ -3,41 +3,51 @@ import alainferior from "../../assets/Mariposa inferior.png";
 
 const logos = [
   {
-    logo: "./src/assets/Soapboxx 1.png",
-    smallLogo: "./src/assets/Soapboxx 1 small.png",
-    name: "./src/assets/Soapboxx 2.png",
-    smallName: "./src/assets/Soapboxx 2 small.png",
+    logo: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/yl6nnlsd9ymncpbsxntr.png",
+    smallLogo:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/adaf1ijsbt5ndwzxphvn.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/wcpbiuhrba5kbm1dqluh.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/qqcecimjz5tpn57cca4g.png",
     link: "https://www.soapboxx.com",
   },
   {
-    logo: "./src/assets/Foodshed.io.png",
-    smallLogo: "./src/assets/Foodshed.io small.png",
-    name: "./src/assets/Foodshed.io 1.png",
-    smallName: "./src/assets/Foodshed.io 1 small.png",
-    name2: "./src/assets/Powered By.png",
+    logo: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799596/Proyecto%20LP/pzcl4ylpsxghgpszn7ol.png",
+    smallLogo:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/zm49zljqy6tf4gfkvzzx.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799601/Proyecto%20LP/m5p8qvxainbvl76vwcax.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/qu0si2ikaapqeop6tpez.png",
+    name2:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/ze7h0ypeveoa2vjgtbuj.png",
     smallName2: "./src/assets/Powered By small.png",
-    link: "https://www.foodshed.io",
+    link: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/crvy6powq3kfia8fotrv.png",
   },
   {
-    name: "./src/assets/Herracenter.png",
-    smallName: "./src/assets/Herracenter small.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799602/Proyecto%20LP/q1hxc04g8bsew2ahbyea.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/unbmfgla96fmovszmrpw.png",
     link: "http://www.herracenter.com.ar/public/",
   },
   {
-    name: "./src/assets/Pintecord.png",
-    smallName: "./src/assets/Pintecord small.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799596/Proyecto%20LP/kmiweuybjzylafaoys1v.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/olliiyjfuofzfglcsk5k.png",
     link: "https://www.pintecord.com.ar",
   },
   {
-    logo: "./src/assets/Vieites logo.png",
-    smallLogo: "./src/assets/Vieites logo small.png",
-    name: "./src/assets/Vieites.png",
-    smallName: "./src/assets/Vieites small.png",
+    logo: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/tt6mixwfc0jivjqkiway.png",
+    smallLogo:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/rr0fuomn82rlrpmfmu5j.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/ct6bq1fab1fwsutn3ojq.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/xmwliqqbfeooxjadgxac.png",
     link: "http://vieiteshnos.com.ar",
   },
   {
-    name: "./src/assets/Wise cx.png",
-    smallName: "./src/assets/Wise cx small.png",
+    name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799598/Proyecto%20LP/q67rjtpq9guooyvkfici.png",
+    smallName:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/kznbspduyqyjo2j0s8p9.png",
     link: "https://wisecx.com",
   },
 ];
