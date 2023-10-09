@@ -3,9 +3,9 @@ import { Cards } from "../Cards/Cards.jsx";
 import styles from "./Join.module.css";
 
 const img1 =
-  "https://res.cloudinary.com/djiasfflw/image/upload/v1696799771/Proyecto%20LP/n3e3q6gsocdarqv1myhr.jpg";
+  "https://res.cloudinary.com/djiasfflw/image/upload/v1696857244/Proyecto%20LP/qjc2tlpqdcppmoifc8dt.jpg";
 const img2 =
-  "https://res.cloudinary.com/djiasfflw/image/upload/v1696799823/Proyecto%20LP/ki6qreedqbi4rvngozdr.jpg";
+  "https://res.cloudinary.com/djiasfflw/image/upload/v1696857605/Proyecto%20LP/grrp2uspv5xuvotliej0.jpg";
 
 export const Join = () => {
   return (
