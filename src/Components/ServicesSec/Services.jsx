@@ -52,7 +52,7 @@ const Services = () => {
   ];
 
   return (
-    <div id="services" className=" relative">
+    <div name="services" id="services" className=" relative">
       <img
         src={alasuperior}
         className={`absolute opacity-20 right-0 z-0 md:w-[65.7rem] w-[24.6rem] top-[400px] md:-top-36 `}

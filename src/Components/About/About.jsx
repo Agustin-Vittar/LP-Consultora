@@ -3,7 +3,11 @@ import ala from "../../assets/Ala.svg";
 
 export const About = () => {
   return (
-    <div id="about" className="bg-primary relative overflow-hidden min-h-full">
+    <div
+      name="about"
+      id="about"
+      className="bg-primary relative overflow-hidden min-h-full"
+    >
       <img
         src={ala}
         alt="ala"

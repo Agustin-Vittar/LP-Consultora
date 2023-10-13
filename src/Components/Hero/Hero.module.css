@@ -22,7 +22,7 @@
   margin-bottom: 50px;
 } */
 
-@media screen and (300px <= width <= 460px) {
+@media screen and (width <= 460px) {
   .imgfondo {
     transform: scaleX(-1);
     align-content: start;
@@ -31,5 +31,7 @@
   .title {
     font-size: 32px;
     transform: scaleX(-1);
+    display: flex;
+    align-items: center;
   }
 }

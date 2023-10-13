@@ -9,11 +9,6 @@
   font-family: "Roboto";
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding: var(--scroll-padding, 5rem);
-}
-
 /* Scrollbar */
 
 ::-webkit-scrollbar {
