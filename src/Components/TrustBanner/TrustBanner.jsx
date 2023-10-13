@@ -76,7 +76,7 @@ const TrustBanner = () => {
       <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] pb-12 text-center ">
         Confían en nosotros
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 mt-5 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 mt-5">
         {logos.map((logo, index) => (
           <div className="z-40 p-5 justify-center flex " key={index}>
             <a

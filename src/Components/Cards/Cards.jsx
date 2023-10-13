@@ -6,9 +6,9 @@ import icono from "../../assets/ícono.svg";
 export const Cards = ({ buttonText, bgImg, linkDirection }) => {
   return (
     <div className={`relative ${styles.card}`}>
-      <div className=" absolute -top-10 left-1/2 -translate-x-1/2 ">
+      <div className={`absolute left-1/2  -translate-x-1/2 ${styles.icon}`}>
         <div>
-          <img src={icono} alt="Ícono de hoja" />
+          <img src={icono} alt="Ícono de hoja" className="" />
         </div>
       </div>
       <div

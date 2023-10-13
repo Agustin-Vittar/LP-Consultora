@@ -9,9 +9,34 @@
   height: 641px;
 }
 
-@media screen and (320px <= width <= 500px) {
+.icon {
+  width: 85px;
+  height: 85px;
+  top: -2.5rem;
+}
+
+@media screen and (200px <= width <= 500px) {
   .card {
     width: 160px;
     height: 256px;
+  }
+
+  .icon {
+    width: 39px;
+    height: 39px;
+    top: -1rem;
+  }
+}
+
+@media screen and (501px <= width <= 800px) {
+  .card {
+    width: 280px;
+    height: 450px;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+    top: -2rem;
   }
 }

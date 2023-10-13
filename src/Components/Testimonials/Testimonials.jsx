@@ -65,7 +65,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div id="testimonials">
+    <div id="testimonials" className="mt-5 pt-10">
       <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] pb-12 text-center">
         Testimonios
       </h1>

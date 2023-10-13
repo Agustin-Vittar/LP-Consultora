@@ -7,9 +7,16 @@
   font-weight: 700;
 }
 
-@media screen and (320px <= width <= 500px) {
+@media screen and (200px <= width <= 500px) {
   .button {
     padding: 6px 10px;
     font-size: 16px;
+  }
+}
+
+@media screen and (501px <= width <= 800px) {
+  .button {
+    padding: 6px 10px;
+    font-size: 24px;
   }
 }

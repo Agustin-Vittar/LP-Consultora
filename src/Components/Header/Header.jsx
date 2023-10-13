@@ -155,7 +155,7 @@ export const Header = () => {
                       to={link.link}
                       spy={true}
                       smooth={true}
-                      offset={-740}
+                      offset={-770}
                       duration={500}
                     >
                       {link.name}

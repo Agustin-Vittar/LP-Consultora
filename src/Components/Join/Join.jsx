@@ -10,7 +10,7 @@ const img2 =
 export const Join = () => {
   return (
     <div name="join" id="join" className={` relative z-40 ${styles.fondo}`}>
-      <div className="flex justify-center items-end h-[15vh] ">
+      <div className="flex justify-center items-end ">
         <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] p-5">
           Sumate
         </h1>

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import logo from "../../assets/Logo footer.png";
+import { Link } from "react-scroll";
 
 const iconos = [
   {
@@ -34,23 +35,30 @@ const contactos = [
   {
     name: "Mail",
     content: "lara@lp-consultora.com",
-    link: "",
+    link: "mailto:lara@lp-consultora.com",
   },
   {
     name: "LinkedIn",
     content: "lp-consultora",
-    link: "",
+    link: "https://www.linkedin.com/company/lp-consultora/?originalSubdomain=ar",
   },
   {
     name: "Instagram",
     content: "lpconsultora.cba",
-    link: "",
+    link: "https://www.instagram.com/lpconsultora.cba/",
   },
   {
     name: "Facebook",
     content: "LP Consultora",
-    link: "",
+    link: "https://www.facebook.com/people/LP-Consultora/100070749852794/",
   },
+];
+
+const Links = [
+  { name: "Nosotros", link: "about" },
+  { name: "Sumate", link: "join" },
+  { name: "Servicios", link: "services" },
+  { name: "Testimonios", link: "testimonials" },
 ];
 
 export const Footer = () => {
@@ -65,7 +73,11 @@ export const Footer = () => {
           {contactos.map((contact, index) => (
             <li key={index}>
               {contact.name}:{" "}
-              <a href={contact.link} className="underline" target="_blank">
+              <a
+                href={contact.link}
+                className="underline hover:text-gray-400 duration-500"
+                target="_blank"
+              >
                 {contact.content}
               </a>
             </li>
@@ -73,14 +85,35 @@ export const Footer = () => {
           <li>Ubicación: Cordoba, Argentina.</li>
         </ul>
       </div>
-      <div className={`${styles.menu}`}>
+      <div className={`${styles.menu} sm:ml-5`}>
         <h2 className={`${styles.title}`}>Menú</h2>
-        <ul className="text-[14px] sm:text-[26px]">
-          <li>Nosotros</li>
-          <li>Sumate</li>
-          <li>Servicios</li>
-          <li>Testimonios</li>
-          <li>Cargá tu CV</li>
+        <ul
+          transition={{ delay: 0.5 }}
+          className="text-[14px] sm:text-[26px] flex flex-col cursor-pointer"
+        >
+          {Links.map((link) => (
+            <Link
+              className="hover:text-gray-400 duration-500"
+              key={link.name}
+              activeClass="active"
+              to={link.link}
+              spy={true}
+              smooth={true}
+              offset={-96}
+              duration={500}
+            >
+              {link.name}
+            </Link>
+          ))}
+          <li>
+            <a
+              className="hover:text-gray-400 duration-500 underline"
+              target="_blank"
+              href="https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new"
+            >
+              Cargá tu CV
+            </a>
+          </li>
         </ul>
       </div>
       <div className={`flex  justify-between ${styles.iconscontainer}`}>
@@ -88,7 +121,7 @@ export const Footer = () => {
           {iconos.map((icon, index) => (
             <a
               href={icon.link}
-              className="flex justify-center items-center "
+              className="flex justify-center items-center hover:-translate-y-1.5 duration-500"
               target="_blank"
               key={index}
             >
