@@ -31,14 +31,14 @@ export const Header = () => {
     animate: {
       scaleY: 1,
       transition: {
-        duration: 0.3,
+        duration: 0.4,
         ease: [0.12, 0, 0.39, 0],
       },
     },
     exit: {
       scaleY: 0,
       transition: {
-        duration: 0.2,
+        duration: 0.4,
         ease: [0.22, 1, 0.36, 1],
       },
     },
