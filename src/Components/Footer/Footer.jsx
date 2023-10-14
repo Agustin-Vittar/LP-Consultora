@@ -109,7 +109,7 @@ export const Footer = () => {
             <a
               className="hover:text-gray-400 duration-500 underline"
               target="_blank"
-              href="https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new"
+              href="https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new#step2"
             >
               Cargá tu CV
             </a>

@@ -20,12 +20,12 @@ export const Join = () => {
           bgImg={img1}
           buttonText="Cargá tu CV"
           linkDirection={
-            "https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new"
+            "https://hiringroom.com/jobs/get_vacancy/62d86434b9f90f34c1221820/candidates/new#step2"
           }
         ></Cards>
         <Cards
           bgImg={img2}
-          buttonText="Busco talento"
+          buttonText="Ofertas laborales"
           linkDirection={"https://lpconsultora.hiringroom.com/jobs"}
         ></Cards>
       </div>
