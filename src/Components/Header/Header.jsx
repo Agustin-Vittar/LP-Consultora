@@ -31,14 +31,14 @@ export const Header = () => {
     animate: {
       scaleY: 1,
       transition: {
-        duration: 0.4,
+        duration: 0.5,
         ease: [0.12, 0, 0.39, 0],
       },
     },
     exit: {
       scaleY: 0,
       transition: {
-        duration: 0.4,
+        duration: 0.5,
         ease: [0.22, 1, 0.36, 1],
       },
     },
@@ -48,14 +48,14 @@ export const Header = () => {
     initial: {
       y: "30vh",
       transition: {
-        duration: 0.5,
+        duration: 0.9,
         ease: [0.37, 0, 0.63, 1],
       },
     },
     open: {
       y: 0,
       transition: {
-        duration: 0.7,
+        duration: 1,
         ease: [0, 0.55, 0.45, 1],
       },
     },
@@ -156,7 +156,8 @@ export const Header = () => {
                       spy={true}
                       smooth={true}
                       offset={-770}
-                      duration={500}
+                      delay={650}
+                      duration={900}
                     >
                       {link.name}
                       <div className="absolute w-full h-0.5 bg-[#C205A1] transform translate-y-1/2 left-0 group-hover:scale-x-100 transition-transform origin-left duration-300 scale-x-0"></div>
