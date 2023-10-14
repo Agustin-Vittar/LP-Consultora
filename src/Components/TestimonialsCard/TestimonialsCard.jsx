@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialsCard = ({ text, name, process }) => {
   return (
     <div className="text-[#50555C] flex flex-col w-full xl:w-[500px] py-2 px-4 justify-center z-40 gap-[8px] mb-12">
-      <p className="text-[14px] xl:text-[18px] text-justify sm:text-start">
+      <p className="text-[14px] xl:text-[18px] text-start sm:text-start">
         {text}
       </p>
       <div className="text-right w-full">

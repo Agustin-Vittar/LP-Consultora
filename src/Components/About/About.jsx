@@ -15,7 +15,7 @@ export const About = () => {
       />
       <div className="h-full flex items-center justify-center text-[#000] flex-col p-5 md:p-20 lg:p-20 gap-5 md:gap-12 relative z-10">
         <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] text-center">
-          Quienes somos
+          Quiénes somos
         </h1>
         <p className="text-[16px] md:text-[28px] lg:text-[32px]">
           Somos un equipo de profesionales formados en RRHH y psicología, que

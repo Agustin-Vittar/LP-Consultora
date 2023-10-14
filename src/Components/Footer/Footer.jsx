@@ -67,11 +67,11 @@ export const Footer = () => {
       id="contact"
       className={`flex justify-between mt-[15%] md:mt-[26%] xl:mt-[10%] items-start text-start mix-blend-multiply sm:p-12 ${styles.footer}`}
     >
-      <div className="flex flex-col ml-3 pl-5 pb-2">
+      <div className="flex flex-col ml-3 pl-5 pb-2 w-full">
         <h2 className={`-ml-10 ${styles.title}`}>Contacto</h2>
-        <ul className="list-disc text-[14px] sm:text-[26px]">
+        <ul className="list-disc text-[14px] sm:text-[18px] md:text-[26px]">
           {contactos.map((contact, index) => (
-            <li key={index}>
+            <li key={index} className="w-max">
               {contact.name}:{" "}
               <a
                 href={contact.link}
@@ -82,7 +82,7 @@ export const Footer = () => {
               </a>
             </li>
           ))}
-          <li>Ubicación: Cordoba, Argentina.</li>
+          <li className="w-max">Ubicación: Cordoba, Argentina.</li>
         </ul>
       </div>
       <div className={`${styles.menu} sm:ml-5`}>
@@ -93,7 +93,7 @@ export const Footer = () => {
         >
           {Links.map((link) => (
             <Link
-              className="hover:text-gray-400 duration-500"
+              className="hover:text-gray-400 duration-500 "
               key={link.name}
               activeClass="active"
               to={link.link}
@@ -116,8 +116,8 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className={`flex  justify-between ${styles.iconscontainer}`}>
-        <div className="gap-[24px] p-2 flex flex-row">
+      <div className={`flex w-full ${styles.iconscontainer}`}>
+        <div className="gap-[15px] flex flex-row w-full">
           {iconos.map((icon, index) => (
             <a
               href={icon.link}
@@ -125,13 +125,17 @@ export const Footer = () => {
               target="_blank"
               key={index}
             >
-              <img className="" src={icon.icon} alt={icon.name} />
+              <img
+                className="min-[400px]:w-[80%] min-[1000px]:w-[100%]"
+                src={icon.icon}
+                alt={icon.name}
+              />
             </a>
           ))}
         </div>
-        <div className="flex justify-end sm:mt-[5rem] ml-3 w-[50%] sm:w-[80%] ">
+        <div className="flex justify-end w-full sm:mt-[5rem]  ">
           <img
-            className="md:w-auto min-[500px]:mt-10 min-[500px]:w-[60%] "
+            className="w-[50%] md:w-auto min-[500px]:mt-10 min-[500px]:w-[60%] "
             src={logo}
             alt="Logo LP Consultora"
           />

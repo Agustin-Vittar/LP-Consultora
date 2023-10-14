@@ -19,8 +19,9 @@ const logos = [
     smallName:
       "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/qu0si2ikaapqeop6tpez.png",
     name2:
+      "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/crvy6powq3kfia8fotrv.png",
+    smallName2:
       "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/ze7h0ypeveoa2vjgtbuj.png",
-    smallName2: "./src/assets/Powered By small.png",
     link: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/crvy6powq3kfia8fotrv.png",
   },
   {
@@ -78,7 +79,7 @@ const TrustBanner = () => {
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 mt-5">
         {logos.map((logo, index) => (
-          <div className="z-40 p-5 justify-center flex " key={index}>
+          <div className="z-40 p-5 flex justify-center" key={index}>
             <a
               target="_blank"
               href={logo.link}
@@ -97,7 +98,7 @@ const TrustBanner = () => {
                 />
                 <img
                   src={smallScreen ? logo.smallName : logo.name}
-                  className=""
+                  className="w-full"
                   alt=""
                 />
               </div>
