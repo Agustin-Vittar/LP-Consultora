@@ -58,7 +58,7 @@ const Services = () => {
         className={`absolute opacity-20 right-0 z-0 md:w-[65.7rem] w-[24.6rem] top-[400px] md:-top-36 `}
       />
       <div className="flex justify-center items-end h-[15vh]">
-        <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] p-5 mb-5">
+        <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] p-1 z-40">
           Nuestros Servicios
         </h1>
       </div>

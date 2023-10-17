@@ -22,11 +22,7 @@ const ServiceCardMobile = ({ title, icon, text }) => {
       <motion.div layout="position" className="card-content">
         <motion.img src={icon} alt="" className="card-icon" />
         <motion.h1 className="card-title">{formattedTitle}</motion.h1>
-        {expanded ? (
-          <BiSolidChevronUp></BiSolidChevronUp>
-        ) : (
-          <BiSolidChevronDown></BiSolidChevronDown>
-        )}
+        {expanded ? <BiSolidChevronUp /> : <BiSolidChevronDown />}
       </motion.div>
       {expanded && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>

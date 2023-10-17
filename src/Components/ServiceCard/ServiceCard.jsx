@@ -43,7 +43,7 @@ const ServiceCard = ({
           <motion.img transition={{ duration: 0.7 }} src={icon} alt="Íconos" />
           <motion.h2
             transition={{ duration: 0.7 }}
-            className="text-center text-[36px] font-[400] whitespace-pre-line"
+            className="text-center text-[30px] lg:text-[36px] font-[400] whitespace-pre-line"
           >
             {formattedTitle}
           </motion.h2>
@@ -56,7 +56,7 @@ const ServiceCard = ({
             animate={{ opacity: expanded || allVisible ? 1 : 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.7 }}
-            className="text-[30px] font-[400] text-center p-10 z-40"
+            className="text-[28px] lg:text-[30px] font-[400] text-start p-10 z-40 mt-8"
           >
             {text}
           </motion.p>
