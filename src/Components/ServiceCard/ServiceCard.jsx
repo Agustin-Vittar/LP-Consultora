@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { BiArrowBack } from "react-icons/bi";
 
 const ServiceCard = ({
   title,
@@ -33,13 +34,15 @@ const ServiceCard = ({
       animate={{ opacity: expanded || allVisible ? 1 : 0 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      onClick={() => onClick(index)}
-      className={`cursor-pointer flex flex-col justify-center items-center gap-[30px] w-[345px] h-[500px] ${
+      className={`flex flex-col justify-center items-center gap-[30px] w-[345px] h-[500px] ${
         expanded || allVisible ? "w-full" : "hidden"
       } z-40`}
     >
       {!expanded && (
-        <div className="flex flex-col justify-center items-center gap-5 hover:-translate-y-1.5 duration-500">
+        <div
+          onClick={() => onClick(index)}
+          className="flex flex-col justify-center items-center gap-5 hover:-translate-y-1.5 duration-500 cursor-pointer "
+        >
           <motion.img transition={{ duration: 0.7 }} src={icon} alt="Íconos" />
           <motion.h2
             transition={{ duration: 0.7 }}
@@ -60,6 +63,14 @@ const ServiceCard = ({
           >
             {text}
           </motion.p>
+          <div className="flex flex-col">
+            <div
+              className="flex justify-center items-center gap-1 cursor-pointer hover:-translate-y-1 duration-500"
+              onClick={() => onClick(index)}
+            >
+              <BiArrowBack size={35}></BiArrowBack>
+            </div>
+          </div>
         </div>
       )}
     </motion.div>

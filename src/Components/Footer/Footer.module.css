@@ -1,10 +1,18 @@
 /* En tu archivo CSS o en tu archivo de estilos de Tailwind */
 .footer {
-  background-color: #229bbc;
   color: #fffdfd;
   text-align: center;
   padding: 1rem;
   flex-direction: column;
+  position: relative;
+}
+
+.footer::after {
+  content: "";
+  background-color: #229bbc;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
 }
 
 .title {

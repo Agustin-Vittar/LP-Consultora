@@ -72,7 +72,7 @@ const TrustBanner = () => {
     <div className="relative mt-[100px] md:mt-[200px]">
       <img
         src={alainferior}
-        className={`absolute opacity-20 right-0 top-[30px] z-0 w-[19.2rem] md:w-[58.3rem] `}
+        className={`absolute opacity-20 right-0 top-[30px] z-1 w-[19.2rem] md:w-[58.3rem] mix-blend-multiply`}
       />
       <h1 className="text-[24px] md:text-[32px] lg:text-[52px] font-[700] pb-12 text-center ">
         Confían en nosotros

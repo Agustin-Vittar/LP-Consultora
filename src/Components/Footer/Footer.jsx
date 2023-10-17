@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import logo from "../../assets/Logo footer.png";
+import logo from "../../assets/Logo footer.svg";
 import { Link } from "react-scroll";
 
 const iconos = [
@@ -65,7 +65,7 @@ export const Footer = () => {
   return (
     <footer
       id="contact"
-      className={`flex justify-between mt-[15%] md:mt-[26%] xl:mt-[10%] items-start text-start mix-blend-multiply sm:p-12 ${styles.footer}`}
+      className={`flex justify-between mt-[15%] md:mt-[26%] xl:mt-[10%] items-start text-start sm:p-12 ${styles.footer}`}
     >
       <div className="flex flex-col ml-3 pl-5 pb-2 w-full">
         <h2 className={`-ml-10 ${styles.title}`}>Contacto</h2>
@@ -116,7 +116,7 @@ export const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className={`flex w-full ${styles.iconscontainer}`}>
+      <div className={`flex w-full  ${styles.iconscontainer}`}>
         <div className="gap-[15px] flex flex-row w-full">
           {iconos.map((icon, index) => (
             <a
@@ -126,14 +126,14 @@ export const Footer = () => {
               key={index}
             >
               <img
-                className="min-[400px]:w-[80%] min-[1000px]:w-[100%]"
+                className="min-[400px]:w-[80%] min-[1000px]:w-[100] "
                 src={icon.icon}
                 alt={icon.name}
               />
             </a>
           ))}
         </div>
-        <div className="flex justify-end w-full sm:mt-[5rem]  ">
+        <div className="flex justify-end w-full sm:mt-[5rem]">
           <img
             className="w-[50%] md:w-auto min-[500px]:mt-10 min-[500px]:w-[60%] "
             src={logo}
