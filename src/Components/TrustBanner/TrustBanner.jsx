@@ -22,7 +22,7 @@ const logos = [
       "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/crvy6powq3kfia8fotrv.png",
     smallName2:
       "https://res.cloudinary.com/djiasfflw/image/upload/v1696799594/Proyecto%20LP/ze7h0ypeveoa2vjgtbuj.png",
-    link: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799595/Proyecto%20LP/crvy6powq3kfia8fotrv.png",
+    link: "https://foodshed.io",
   },
   {
     name: "https://res.cloudinary.com/djiasfflw/image/upload/v1696799602/Proyecto%20LP/q1hxc04g8bsew2ahbyea.png",
